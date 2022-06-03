@@ -10,19 +10,23 @@ On the home page, the user can view all movies and their average user rating. A 
 Also on the home page, a random movie image displays on page load. The random image is diaplayed in the banner and provides links that navigates the user to view the random movie's details. The movie details "page" displays the movie's title, poster, overview, rating, and release date.
 
 Click here to see [Rancid Tomatillos](https://gaping-hammer.surge.sh)
+
 # Learning Goals
 - React fundamentals
-- Build a multipage application with Router
-- Testing React components with acceptance testing & end-to-end testing
+- Build a multipage application via Router
+- Testing React components with User Acceptance Testing (UAT) & End-to-End testing
+
 # Technologies Used 
 - React
 - React Router
 - Cypress
-- Javascript
+- JavaScript
 - HTML
 - CSS
-- WAVE (Chrome extension)
 - React Dev Tools (Chrome Dev Tools)
+
+## Accessibility
+- WAVE (Chrome extension)
 
 # Features
 
@@ -62,10 +66,13 @@ To get a local copy up and running follow these simple steps.
 
 1. In your terminal, clone the repo
    ```sh
-   git clone git@github.com:Ekaiman/Rancid_Tomatillos.git
+   git clone git@github.com:lswatson16/Rancid_Tomatillos.git
    ```
-2. `cd` into that directory
-3. Install NPM packages
+2. cd into the root directory
+   ```sh
+   cd Rancid_Tomatillos
+   ```
+4. Install NPM packages
    ```sh
    npm install
    ```
@@ -79,7 +86,7 @@ After starting both servers, project will run at http://localhost:8080/   -->
    
 
 <!-- # Code Architecture 
-If you want to know more about our code architecture, [click here](https://gist.github.com/Ekaiman/f0c6022e295921a810e7531a4d38f9b0). -->
+If you want to know more about our code architecture, [click here](). -->
 
 # Challenges and Wins
 This was our first time building an application in React. In comparison to vanilla JavaScript, React is a breath of fresh air because of its ability to reuse components. 
