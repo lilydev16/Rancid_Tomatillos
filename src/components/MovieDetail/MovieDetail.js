@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './MovieDetail.css';
-import apiCalls from '../../ApiCalls';
+import apiCalls from '../../apiCalls';
 import { Route, Link } from 'react-router-dom';
 import ErrorHandling from '../ErrorHandling/ErrorHandling';
 import WrongPath
