@@ -43,7 +43,7 @@ class MovieDetail extends Component {
         return (
           <section className='movie-detail-background'>
             <div
-              className='movieDetail'
+              className='movie-detail-bg'
               style={{
                 backgroundImage: `url(${backdrop_path})`
               }}
@@ -72,17 +72,16 @@ class MovieDetail extends Component {
                   />
                   <div className='text-wrapper'>
                     <h1>{title}</h1>
-                    <h2 className='release-date'>Released: {release_date}</h2>
                     <h2 className='rating'>
                       Average rating:{' '}
                       {Math.round(this.props.selectedMovie.average_rating)}
                       <span className='fa-solid fa-star'></span>
                     </h2>
+                    <h2 className='release-date'>Released: {release_date}</h2>
                     <h2 className='overview'> {overview}</h2>
                   </div>
                 </section>
               </div>
-    
             </div>
           </section>
         )

@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.movieDetail {
+.movie-detail-bg {
   height: 80vh;
   width: 80vw;
   position: relative;
@@ -36,7 +36,7 @@
 
 .gradient {
   position: absolute;
-    background-color: #18101f66;
+  background-color: #18101f66;
   background-image: linear-gradient(
     to left,
     rgba(0, 0, 0, 0),
@@ -93,4 +93,60 @@
 .view-all-movies-button:hover {
   color: #fff;
   background-color: #616467;
+}
+
+/* Media Queries */
+
+@media (max-width: 900px) {
+  button.view-all-movies-button {
+    /* font-size: 0.7rem; */
+    margin: 1em 1.2em 3em;
+    padding: 4px 6px;
+    font-size: 0.8em;
+  }
+
+  .title-poster {
+    flex-direction: column;
+  }
+
+  .poster {
+    height: 40vh;
+    width: 40vw;
+  }
+
+  .text-wrapper {
+    text-align: start;
+    margin: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  /* button.view-all-movies-button {
+  
+    margin: 0.4em;
+    padding: 4px 6px;
+    font-size: 0.8em;
+  } */
+
+  .text-wrapper h1 {
+    font-size: 0.6em;
+  }
+
+  .poster {
+    height: 28vh;
+    width: 28vw;
+  }
+
+  /* .title-poster {
+    flex-direction: column;
+  } */
+}
+
+@media (max-width: 520px) {
+  button.view-all-movies-button {
+    margin: 4px;
+    font-size: 10px;
+    padding: 1px 3px;
+    
+  }
 }
