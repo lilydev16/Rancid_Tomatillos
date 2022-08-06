@@ -9,9 +9,9 @@ On the home page, the user can view all movies and their average user rating. A 
 
 Also on the home page, a random movie image displays on page load. The random image is diaplayed in the banner and provides links that navigates the user to view the random movie's details. The movie details "page" displays the movie's title, poster, overview, rating, and release date.
 
-Click here to see [Rancid Tomatillos](https://gaping-hammer.surge.sh)
+Click here to demo [Rancid Tomatillos](https://rancid-tomatillos-blue.vercel.app/). 
 
-# Learning Goals
+# Learning Goal
 - React fundamentals
 - Build a multipage application via Router
 - Testing React components with User Acceptance Testing (UAT) & End-to-End testing
@@ -81,10 +81,6 @@ To get a local copy up and running follow these simple steps.
    npm start
    ``` 
    
-<!-- ## Deployed Site
-After starting both servers, project will run at http://localhost:8080/   -->
-   
-
 <!-- # Code Architecture 
 If you want to know more about our code architecture, [click here](). -->
 
@@ -101,11 +97,11 @@ Cypress testing was a bit of a challenge to learn and we hope to improve on test
 - Responsive design
 
 # Deployment
-Skip installation by using this deployment link to view the application: [Rancid Tomatillos](https://gaping-hammer.surge.sh)
+Skip installation by using this deployment link to view the application: [Rancid Tomatillos](https://rancid-tomatillos-blue.vercel.app/)
 
-- No installlation is needed  with the provided deploy link.
+- No installlation is needed with the provided deploy link.
 
-- The application was deployed using [Surge](https://surge.sh/).
+- The application was deployed using [Vercel](https://vercel.com/).
 
 # Contributors
 - [Lauralyn Watson](https://github.com/lswatson16)
@@ -115,7 +111,7 @@ Skip installation by using this deployment link to view the application: [Rancid
 - [Fontawesome](https://fontawesome.com/icons)
 - [Google fonts](https://fonts.google.com/)
 - [Favicon generator](https://favicon.io/favicon-generator/)
-- [Surge](https://surge.sh/)
+- [Vercel](https://vercel.com/)
 - [Create React App](https://create-react-app.dev/)
 
 <!-- ![Gif 1](https://media.giphy.com/media/aooFim06ULI1TlUyJe/giphy.gif)
