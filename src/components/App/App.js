@@ -2,7 +2,7 @@ import './App.css';
 import React, { Component } from 'react';
 import MovieWrapper from '../MovieWrapper/MovieWrapper.js';
 import MovieDetail from '../MovieDetail/MovieDetail';
-import apiCalls from '../../apiCalls';
+import apiCalls from '../../../apiCalls';
 import { Route, Switch } from 'react-router-dom';
 import MovieTrailer from '../MovieTrailer/MovieTrailer';
 import WrongPath from '../WrongPath/WrongPath';
