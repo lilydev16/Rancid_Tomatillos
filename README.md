@@ -9,7 +9,7 @@ On the home page, the user can view all movies and their average user rating. A 
 
 Also on the home page, a random movie image displays on page load. The random image is diaplayed in the banner and provides links that navigates the user to view the random movie's details. The movie details "page" displays the movie's title, poster, overview, rating, and release date.
 
-Click here to demo [Rancid Tomatillos](https://rancid-tomatillos-blue.vercel.app/). 
+Click here to demo the fully responsive and mobile friendly application, [Rancid Tomatillos](https://rancid-tomatillos-blue.vercel.app/). 
 
 # Learning Goal
 - React fundamentals
@@ -90,11 +90,10 @@ This was our first time building an application in React. In comparison to vanil
 Cypress testing was a bit of a challenge to learn and we hope to improve on testing sad paths in our application.
 
 # Future Additions
-- User can filter movies by rating, release date, and genre.
-- User can search for a movie by title.
-- User can add their own rating to the movie.
-- Sad path testing.
-- Responsive design
+- User can filter movies by rating, release date, and genre
+- User can search for a movie by title
+- User can add their own review/rating to the movie
+- Sad path testing
 
 # Deployment
 Skip installation by using this deployment link to view the application: [Rancid Tomatillos](https://rancid-tomatillos-blue.vercel.app/)
